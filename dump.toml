@@ -622,7 +622,7 @@ functions = [
     { name = "grNormalize", vram = 0x800055D4, size = 0xAC },
     { name = "__osTimerServicesInit", vram = 0x800AC0D0, size = 0x54 },
     { name = "MusPtrBankGetCurrent", vram = 0x800A56DC, size = 0xC },
-    { name = "toupper", vram = 0x800BAA70, size = 0x24 },
+    { name = "_toupper_recomp", vram = 0x800BAA70, size = 0x24 },
     { name = "MusHandleSetPan", vram = 0x800A5460, size = 0x70 },
     { name = "__MusIntAudManInit", vram = 0x800A9160, size = 0x138 },
     { name = "func_80035A98", vram = 0x80035A98, size = 0xF0 },
